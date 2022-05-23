@@ -1,0 +1,36 @@
+body, html { 
+  height: 100%;
+  width: 100%;
+  background: url(pexel.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+  color: whitesmoke;
+  overflow: auto;
+}
+
+.btn-secondary {
+	background-color: orange;
+	border-radius: 50px;
+	border-color: orange;
+	transition: 0.4;
+}
+
+.btn:hover {
+	background-color: transparent;
+	border-radius: 50px;
+	border-color: orange;
+}
+
+hr {
+	opacity: 0.5;
+	max-width: 50px;
+	margin: auto;
+	margin-bottom: 5px;
+	background-color: orange;
+}
+
+.spacing {
+	padding: 20px;
+}
